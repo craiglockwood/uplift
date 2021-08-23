@@ -4,32 +4,25 @@
 <meta charset="utf-8">
 <title>UPLIFT</title>
 <style>
-    .outer-wrapper{
-        display: inline-block; 
-        margin: 20px;
-    }
-    .frame{  
-        width: 250px;
-        height: 200px;
-        vertical-align: middle;
-        text-align: center;
-        display: table-cell;
-    }    
-    img{
-        max-width: 100%;
-        max-height: 100%;
-        display: block;
-        margin: 0 auto;
-    }
+    html, body, #wrapper {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+#wrapper td {
+   vertical-align: middle;
+   text-align: center;
+}
 </style>
 </head>
 <body>
-    <!-- Alignment of undersized image -->
-    <div class="outer-wrapper">
-        <div class="frame">
-            <img src="logo.png" alt="uplift">
-        </div>
-    </div>
+ <table id="wrapper">
+  <tr>
+    <td><img src="logo.png" alt="" /></td>
+  </tr>
+</table>
    
 </body>
 </html>
